@@ -6,8 +6,28 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>Limpopon</title>
+        <meta name="description" content="описание не длиннее 155 символов">
+        <meta name="keywords" content="мета-теги, шаблон, html, css">
+       
+        <!-- Контролирует поведение поисковых систем при индексации страницы --> 
+        <meta name="robots" content="index,follow,noodp"><!-- Все поисковые системы -->
+        <meta name="googlebot" content="index,follow"><!-- Указание отдельно для Google -->
+       
+        <!-- Позволяет указать Google не показывать в поисковой выдаче поле для поиска по сайту -->
+        <meta name="google" content="nositelinkssearchbox"><!-- Позволяет указать Google не предлагать перевести эту страницу -->
+        <meta name="google" content="notranslate"><!-- Подтверждает авторство страницы в Google Search Console -->
+        <meta name="google-site-verification" content="verification_token"> <!-- Тег указания ПО, которое сгенерировало эту страницу -->
+        <meta name="generator" content="program"><!-- Короткое описание тематики вашего сайта -->
+        <meta name="subject" content="тематика вашего сайта"><!-- open graph Facebook-->
+        <meta content="Заголовок">
+        <meta content="website">
+       
+        <!-- если сайт многоязычный -->
+        <!-- <meta property="og:locale" content="ru_RU"> -->
+        <meta content="http://localhost.my">
         <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-touch-icon-57x57.png" data-mce-href="/apple-touch-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-touch-icon-60x60.png" data-mce-href="/apple-touch-icon-60x60.png">
         <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png" data-mce-href="/apple-touch-icon-72x72.png">
@@ -28,31 +48,42 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="css/style.css">
+        <meta name="theme-color" content="#ffffff">
+ 
+        <!-- Chrome, Firefox OS and Opera -->
+        <meta name="theme-color" content="#4285f4">
+       
+        <!-- Windows Phone -->
+        <meta name="msapplication-navbutton-color" content="#4285f4">
+       
+        <!-- iOS Safari -->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+       
+        <!-- Яндекс.Браузер -->
+       <meta name="viewport" content="ya-title=#4e69a2,ya-dock=fade">
     </head>
     <body>
         <div>
             <div>
                 <a href=""></a>
-                <ul id="navHeader">
+                <ul id="nav">
                     <li>Home</li>
                     <li>Features </li>
                     <li>Video</li>
                     <li>Screens</li>
                     <li>Pricing</li>
                     <li>Team</li>
-                    <li><a href="" class="btn-free">Free trail</a></li>
+                    <li><a href="" class="btn-primary btn-free">Free trail</a></li>
                 </ul>
-                </div>
+            </div>
                 <h1>Best Software Landingpage</h1>
-                <div>
-                    <a href="">get started now</a>
-                </div>
-                <div>
-                    <a href="">learn more</a>
-                </div>
+            <div class="btn-group">
+                    <a href="" class="btn-primary">get started now</a>
+                    <a href="" class="btn-secondary">learn more</a>
+            </div>
         </div>
-
-        <div>
+        <div class="page-company">
             <ul>
                 <li></li>
                 <li></li>
@@ -61,11 +92,10 @@
             </ul>
         </div>
 
-        <div>
-            <div>
+        <div class="page-grid">
+            <div class="grid">
                 <h2><span>Features</span>Best Features Ever Seen</h2>
-            </div>
-            <div>
+            <div div class="grid-item">
                 <div></div>
                 <h3>Well Documented</h3>
                 <p>Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed </p>
@@ -106,6 +136,7 @@
                 <p><span>Rosalina Pong</span> - Founder, uithemes</p>
             </div>
         </div>
+    </div>
 
         <div>
             <div>
@@ -113,7 +144,7 @@
                     <h2><span>Subscribe</span>Signup For A Trail</h2>
                     <p>Create your free account now & get 30 days free trail No credit</p>
                     <input type="email" placeholder="Enter your email address">
-                    <button type="submit">Subscribe</button>
+                    <button type="submit" class="btn-primary">Subscribe</button>
                 </div>
                 <img src="img/subscribe-pic.png" alt="robot">
             </div>
@@ -162,7 +193,7 @@
                     <div></div>
                     <h2>Limpon Is Suitable For Anytype LandingPage</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-                    <a href="">get started now</a>
+                    <a href="" class="btn-primary">get started now</a>
                 </div>
             </div>
         </div>
@@ -172,7 +203,7 @@
                     <h2>Easy To Etid & Very Easily Control</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
                     <p>Available Now</p>
-                    <a href="">learn more</a>
+                    <a href="" class="btn-primary">learn more</a>
                 </div>
                 <img src="img/easy-pic.png" alt="stats">
             </div>
@@ -220,7 +251,7 @@
                             <li>Free Hosting Name</li>
                             <li>24x7 Online Support</li>
                         </ul>
-                        <a href="">choose plan</a>
+                        <a href="" class="btn-info">choose plan</a>
                     </div>
                 </div>
                 <div class="box-price-item active">
@@ -234,7 +265,7 @@
                         <li>Free Hosting Name</li>
                         <li>24x7 Online Support</li>
                     </ul>
-                    <a href="">choose plan</a>
+                    <a href="" class="btn-primary">choose plan</a>
                 </div>
                 <div class="box-price-item">
                     <h3><span>$</span>350<span>/mo</span></h3>
@@ -247,7 +278,7 @@
                         <li>Free Hosting Name</li>
                         <li>24x7 Online Support</li>
                     </ul>
-                    <a href="">choose plan</a>
+                    <a href="" class="btn-info">choose plan</a>
                 </div>
             </div>
             <div class="page-team">
@@ -273,7 +304,7 @@
                     <input type="text" placeholder="Enter your name here">
                     <input type="email" placeholder="Enter your email here">
                     <textarea name="textMessage" placeholder="Enter your message here"></textarea>
-                    <button type="submit"><span></span>Submit Now</button>
+                    <button type="submit" class="btn-primary"><span></span>Submit Now</button>
                 </form>
             </div>
             <div class="footer">
