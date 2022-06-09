@@ -24,12 +24,23 @@ a{
 .nav {
     font-size: 12px;
     font-weight:700;
-    color: #6e7ea9; 
     text-transform: uppercase;
     list-style-type: none;
     margin: 0;
     padding: 0;
+    float: right;
+    position: relative;
+    display: flex;
 }
+
+.nav>li{
+    padding: 0 15px;
+}
+
+.nav-item{
+    color: #6e7ea9; 
+}
+
 .btn-primary {
     color: #fff;
     font-size: 12px;
@@ -66,7 +77,7 @@ a{
 .btn-free{
     letter-spacing: 1.7px;
     font-weight: 400;
-    padding:20px 56px;
+    padding:21px 56px;
 }
 
 .btn-info{
